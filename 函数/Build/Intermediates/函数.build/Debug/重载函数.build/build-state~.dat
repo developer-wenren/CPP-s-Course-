@@ -1,135 +1,0 @@
-T重载函数
-v6
-r1
-cCheck dependencies
-cCompileC Build/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c00000000533B9F35000000000000044C
-t1396416309
-s1100
-
-N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000533B9F3500000000000001DE
-t1396416309
-s478
-
-N/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000533B6DFC0000000000000ADC
-t1396403708
-s2780
-
-N/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp
-c00000000550ACA0C0000000000000221
-t1426770444
-s545
-
-CBuild AST from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9c14fe9501bbba41^503a019601bbba41^-284"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.2(21%IDEActivityLogMessage2@141"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.-448463254#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@141"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.-448463254#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"BF57B84A-B9B5-40D4-BE27-E19F52F94684-
-
-CCompileC Build/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s448463254.005265
-e448463254.523609
-r0
-xCompileC
-xBuild/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.o
-x/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:19:12: error: use of undeclared identifier 'a'; did you mean 'std::uniform_int_distribution<long>::a'?
-o    return a+b;
-o           ^
-o           std::uniform_int_distribution<long>::a
-oIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:9:
-oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:38:
-oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ios:216:
-oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/__locale:15:
-oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:2935:17: note: 'std::uniform_int_distribution<long>::a' declared here
-o    result_type a() const {return __p_.a();}
-o                ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:19:12: error: call to non-static member function without an object argument
-o    return a+b;
-o           ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:35:13: error: call to 'add' is ambiguous
-o    int a = add(8.0, 8);
-o            ^~~
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:11:5: note: candidate function
-oint add(float a,int b)
-o    ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:17:7: note: candidate function
-ofloat add(int c,int b)
-o      ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:23:7: note: candidate function
-ofloat add(double c,float e)
-o      ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:37:13: error: call to 'add' is ambiguous
-o    int b = add(2.0, 4);
-o            ^~~
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:11:5: note: candidate function
-oint add(float a,int b)
-o    ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:17:7: note: candidate function
-ofloat add(int c,int b)
-o      ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:23:7: note: candidate function
-ofloat add(double c,float e)
-o      ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:41:5: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
-o    cout>>a>>b>>c;
-o    ^~~~
-o    std::cout
-oIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:9:
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:50:33: note: 'std::cout' declared here
-oextern _LIBCPP_FUNC_VIS ostream cout;
-o                                ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:41:9: error: invalid operands to binary expression ('ostream' (aka 'basic_ostream<char>') and 'int')
-o    cout>>a>>b>>c;
-o    ~~~~^ ~
-oIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:9:
-oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:40:
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:740:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:789:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:797:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<char, _Traits>& __is, signed char* __s)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:804:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:832:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:840:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<char, _Traits>& __is, signed char& __c)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:1450:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:1531:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<_CharT, _Traits>& __is,
-o^
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:1663:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
-ooperator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
-o^
-o6 errors generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp179"CompileC Build/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.o 重载函数/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2f6c019601bbba41^7b66899601bbba41^-5492"/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:19:12: error: use of undeclared identifier 'a'; did you mean 'std::uniform_int_distribution<long>::a'?    return a+b;           ^           std::uniform_int_distribution<long>::aIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:9:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:38:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ios:216:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/__locale:15:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:2935:17: note: 'std::uniform_int_distribution<long>::a' declared here    result_type a() const {return __p_.a();}                ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:19:12: error: call to non-static member function without an object argument    return a+b;           ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:35:13: error: call to 'add' is ambiguous    int a = add(8.0, 8);            ^~~/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:11:5: note: candidate functionint add(float a,int b)    ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:17:7: note: candidate functionfloat add(int c,int b)      ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:23:7: note: candidate functionfloat add(double c,float e)      ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:37:13: error: call to 'add' is ambiguous    int b = add(2.0, 4);            ^~~/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:11:5: note: candidate functionint add(float a,int b)    ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:17:7: note: candidate functionfloat add(int c,int b)      ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:23:7: note: candidate functionfloat add(double c,float e)      ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:41:5: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?    cout>>a>>b>>c;    ^~~~    std::coutIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:9:/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:50:33: note: 'std::cout' declared hereextern _LIBCPP_FUNC_VIS ostream cout;                                ^/Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:41:9: error: invalid operands to binary expression ('ostream' (aka 'basic_ostream<char>') and 'int')    cout>>a>>b>>c;    ~~~~^ ~In file included from /Users/zjsruxxxy3/Desktop/C++/函数/重载函数/main.cpp:9:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:40:/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:740:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:789:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:797:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<char, _Traits>& __is, signed char* __s)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:804:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:832:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:840:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<char, _Traits>& __is, signed char& __c)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:1450:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:1531:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'operator>>(basic_istream<_CharT, _Traits>& __is,^/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:1663:1: n6(36%IDEClangDiagnosticActivityLogMessage2@88"Use of undeclared identifier 'a'; did you mean 'std::uniform_int_distribution<long>::a'?-448463254#18446744073709551615#0#1(2@54"'std::uniform_int_distribution<long>::a' declared here-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/algorithm0000000000000000^2934#16#2934#16#95869#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^18#11#18#11#236#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^18#11#18#12#236#1#-2@61"Call to non-static member function without an object argument-448463254#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^18#11#18#11#236#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^18#11#18#12#236#0#-2@26"Call to 'add' is ambiguous-448463254#18446744073709551615#0#3(2@18"Candidate function-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^10#4#10#4#155#0#14"Semantic Issue--2@18"Candidate function-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^16#6#16#6#206#0#14"Semantic Issue--2@18"Candidate function-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^22#6#22#6#255#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^34#12#34#12#426#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^34#12#34#15#426#0#-2@26"Call to 'add' is ambiguous-448463254#18446744073709551615#0#3(2@18"Candidate function-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^10#4#10#4#155#0#14"Semantic Issue--2@18"Candidate function-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^16#6#16#6#206#0#14"Semantic Issue--2@18"Candidate function-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^22#6#22#6#255#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^36#12#36#12#456#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^36#12#36#15#456#0#-2@62"Use of undeclared identifier 'cout'; did you mean 'std::cout'?-448463254#18446744073709551615#0#1(2@25"'std::cout' declared here-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/iostream0000000000000000^49#32#49#32#1008#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^40#4#40#4#508#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^40#4#40#8#508#4#-2@87"Invalid operands to binary expression ('ostream' (aka 'basic_ostream<char>') and 'int')-448463254#18446744073709551615#0#9(2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^739#0#739#0#22192#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^788#0#788#0#23702#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^796#0#796#0#23892#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^803#0#803#0#24063#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^831#0#831#0#24830#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^839#0#839#0#25020#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^1449#0#1449#0#41585#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^1530#0#1530#0#43769#0#14"Semantic Issue--2@83"Candidate template ignored: could not match 'basic_istream' against 'basic_ostream'-448463254#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/istream0000000000000000^1662#0#1662#0#47817#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^40#8#40#8#512#0#14"Semantic Issue2(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^40#4#40#8#508#0#3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^40#10#40#11#514#0#-0#0#1#-19%DVTDocumentLocation4@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0/main.cpp0000000000000000^2752"CompileC Build/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.o 重载函数/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zjsruxxxy3/Desktop/C++/函数    export LANG=en_US.US-ASCII    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zjsruxxxy3/Desktop/C++/函数/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/重载函数-generated-files.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/重载函数-own-target-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/重载函数-all-target-headers.hmap -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/重载函数-project-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/DerivedSources/x86_64 -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/DerivedSources -F/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug -MMD -MT dependencies -MF /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/重载函数.bu36"8FECC9CA-624B-4A60-BB91-4FF67040314A-
-bB30938E6-CF92-471B-9790-B779A7680678
-
-CLd /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/重载函数 normal x86_64
-r0
-

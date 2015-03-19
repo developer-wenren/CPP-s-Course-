@@ -1,83 +1,0 @@
-T引用调用
-v6
-r1
-cCheck dependencies
-cCompileC Build/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c00000000533B9F35000000000000044C
-t1396416309
-s1100
-
-N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000533B9F3500000000000001DE
-t1396416309
-s478
-
-N/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000533B6DFC0000000000000ADC
-t1396403708
-s2780
-
-N/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp
-c000000004EFFAE9300000000000001AC
-t1325379219
-s428
-
-CBuild AST from /Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies17463e13e6afb441^9faf4513e6afb441^-284"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.2(21%IDEActivityLogMessage2@141"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.-347072019#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@141"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.-347072019#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"589F6BFF-7E33-40E8-92FF-0E973B0CCE90-
-
-CCompileC Build/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s347072019.263268
-e347072019.830778
-r0
-xCompileC
-xBuild/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.o
-x/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:11:16: error: expected namespace name
-ousing namespace:std;
-o               ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:15:7: error: invalid operands to binary expression ('int *' and 'int *')
-o    &a+=&b;
-o    ~~^ ~~
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:17:7: error: expression is not assignable
-o    &b=&a-&b;
-o    ~~^
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:19:7: error: expression is not assignable
-o    &a-=&b;
-o    ~~^
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:33:5: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
-o    cout<<a"+++"<<b;
-o    ^~~~
-o    std::cout
-oIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:9:
-o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:50:33: note: 'std::cout' declared here
-oextern _LIBCPP_FUNC_VIS ostream cout;
-o                                ^
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:33:12: error: expected ';' after expression
-o    cout<<a"+++"<<b;
-o           ^
-o           ;
-o/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:33:17: error: invalid operands to binary expression ('const char *' and 'int')
-o    cout<<a"+++"<<b;
-o           ~~~~~^ ~
-o7 errors generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp179"CompileC Build/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.o 引用调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler68784313e6afb441^04add413e6afb441^-1273"/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:11:16: error: expected namespace nameusing namespace:std;               ^/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:15:7: error: invalid operands to binary expression ('int *' and 'int *')    &a+=&b;    ~~^ ~~/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:17:7: error: expression is not assignable    &b=&a-&b;    ~~^/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:19:7: error: expression is not assignable    &a-=&b;    ~~^/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:33:5: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?    cout<<a"+++"<<b;    ^~~~    std::coutIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:9:/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:50:33: note: 'std::cout' declared hereextern _LIBCPP_FUNC_VIS ostream cout;                                ^/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:33:12: error: expected ';' after expression    cout<<a"+++"<<b;           ^           ;/Users/zjsruxxxy3/Desktop/C++/函数/引用调用/main.cpp:33:17: error: invalid operands to binary exp7(36%IDEClangDiagnosticActivityLogMessage2@23"Expected namespace name-347072019#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^10#15#10#15#165#0#11"Parse Issue--2@59"Invalid operands to binary expression ('int *' and 'int *')-347072019#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^14#6#14#6#205#0#14"Semantic Issue2(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^14#4#14#6#203#1#3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^14#8#14#10#207#1#-2@28"Expression is not assignable-347072019#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^16#6#16#6#222#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^16#4#16#6#220#1#-2@28"Expression is not assignable-347072019#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^18#6#18#6#241#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^18#4#18#6#239#1#-2@62"Use of undeclared identifier 'cout'; did you mean 'std::cout'?-347072019#18446744073709551615#0#1(2@25"'std::cout' declared here-347072019#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/iostream0000000000000000^49#32#49#32#1008#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#4#32#4#389#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#4#32#8#389#4#-2@29"Expected ';' after expression-347072019#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#11#32#11#396#0#11"Parse Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#11#32#11#396#0#-2@64"Invalid operands to binary expression ('const char *' and 'int')-347072019#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#16#32#16#401#0#14"Semantic Issue2(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#11#32#16#396#0#3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^32#18#32#19#403#0#-0#0#1#-19%DVTDocumentLocation4@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E5%BC%95%E7%94%A8%E8%B0%83%E7%94%A8/main.cpp0000000000000000^2752"CompileC Build/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.o 引用调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zjsruxxxy3/Desktop/C++/函数    export LANG=en_US.US-ASCII    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zjsruxxxy3/Desktop/C++/函数/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/引用调用-generated-files.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/引用调用-own-target-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/引用调用-all-target-headers.hmap -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/引用调用-project-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/DerivedSources/x86_64 -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/DerivedSources -F/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug -MMD -MT dependencies -MF /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/引用调用.bu36"DFCFE456-8CE6-4AC0-99BE-5A89ED0C6ABA-
-bD7DA6929-9524-47B3-A48E-9A4C049D379E
-
-CLd /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/引用调用 normal x86_64
-r0
-
