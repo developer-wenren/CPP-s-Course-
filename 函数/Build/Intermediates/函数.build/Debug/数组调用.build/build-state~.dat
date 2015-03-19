@@ -1,0 +1,81 @@
+T数组调用
+v6
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000533B9F35000000000000044C
+t1396416309
+s1100
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533B9F3500000000000001DE
+t1396416309
+s478
+
+N/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000533B6DFC0000000000000ADC
+t1396403708
+s2780
+
+N/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp
+c000000004F001A9B0000000000000276
+t1325406875
+s630
+
+CBuild AST from /Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdba7031c52b0b441^8e930a1c52b0b441^-284"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.2(21%IDEActivityLogMessage2@141"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.-347099676#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@141"OS X deployment target '10.10' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.9' for the OS X 10.9 SDK.-347099676#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"19AEA796-1A21-47DE-BF50-8FF6D13ADC6B-
+
+CCompileC Build/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s347099676.031055
+e347099677.523918
+r0
+xCompileC
+xBuild/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.o
+x/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp
+o/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:11: error: use of undeclared identifier 'a'; did you mean 'std::uniform_int_distribution<long>::a'?
+ovoid sort(a[],int n)
+o          ^
+o          std::uniform_int_distribution<long>::a
+oIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:9:
+oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:38:
+oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ios:216:
+oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/__locale:15:
+oIn file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:
+o/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:2935:17: note: 'std::uniform_int_distribution<long>::a' declared here
+o    result_type a() const {return __p_.a();}
+o                ^
+o/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:11: error: call to non-static member function without an object argument
+ovoid sort(a[],int n)
+o          ^
+o/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:6: error: variable has incomplete type 'void'
+ovoid sort(a[],int n)
+o     ^
+o/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:13: error: expected expression
+ovoid sort(a[],int n)
+o            ^
+o/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:21: error: expected ';' after top level declarator
+ovoid sort(a[],int n)
+o                    ^
+o                    ;
+o5 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp179"CompileC Build/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.o 数组调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7713081c52b0b441^7d1f861d52b0b441^-1679"/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:11: error: use of undeclared identifier 'a'; did you mean 'std::uniform_int_distribution<long>::a'?void sort(a[],int n)          ^          std::uniform_int_distribution<long>::aIn file included from /Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:9:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:38:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ios:216:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/__locale:15:In file included from /Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:2935:17: note: 'std::uniform_int_distribution<long>::a' declared here    result_type a() const {return __p_.a();}                ^/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:11: error: call to non-static member function without an object argumentvoid sort(a[],int n)          ^/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:6: error: variable has incomplete type 'void'void sort(a[],int n)     ^/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:13: error: expected expressionvoid sort(a[],int n)            ^/Users/zjsruxxxy3/Desktop/C++/函数/数组调用/main.cpp:13:21: error: expected ';' after top level declaratorvoid sort(a[]5(36%IDEClangDiagnosticActivityLogMessage2@88"Use of undeclared identifier 'a'; did you mean 'std::uniform_int_distribution<long>::a'?-347099677#18446744073709551615#0#1(2@54"'std::uniform_int_distribution<long>::a' declared here-347099677#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file:///Applications/Xcode%202.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/algorithm0000000000000000^2934#16#2934#16#95869#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#10#12#10#182#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#10#12#11#182#1#-2@61"Call to non-static member function without an object argument-347099677#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#10#12#10#182#0#14"Semantic Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#10#12#11#182#0#-2@35"Variable has incomplete type 'void'-347099677#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#5#12#5#177#0#14"Semantic Issue--2@19"Expected expression-347099677#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#12#12#12#184#0#11"Parse Issue--2@39"Expected ';' after top level declarator-347099677#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#20#12#20#192#0#11"Parse Issue1(3@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^12#20#12#20#192#0#-0#0#1#-19%DVTDocumentLocation4@101"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E6%95%B0%E7%BB%84%E8%B0%83%E7%94%A8/main.cpp0000000000000000^2752"CompileC Build/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.o 数组调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zjsruxxxy3/Desktop/C++/函数    export LANG=en_US.US-ASCII    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zjsruxxxy3/Desktop/C++/函数/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/数组调用-generated-files.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/数组调用-own-target-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/数组调用-all-target-headers.hmap -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/数组调用-project-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/DerivedSources/x86_64 -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/DerivedSources -F/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug -MMD -MT dependencies -MF /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/数组调用.bu36"90B91FB5-080A-4FC8-860F-6B9C1A370EE8-
+bB9AFBF56-4F02-4C4B-96FB-E36DF070D44E
+
+CLd /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/数组调用 normal x86_64
+r0
+

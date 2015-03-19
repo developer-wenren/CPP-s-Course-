@@ -1,0 +1,278 @@
+T传地址调用
+v6
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/传地址调用 normal x86_64
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000533B9F35000000000000044C
+t1396416309
+s1100
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533B9F3500000000000001DE
+t1396416309
+s478
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c00000000533B9F45000000000000681C
+t1396416325
+s26652
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+c00000000533B9F45000000000006E8B0
+t1396416325
+s452784
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c00000000533B9F460000000000004734
+t1396416326
+s18228
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c00000000533B9F46000000000000FC6C
+t1396416326
+s64620
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c00000000533B9F46000000000000F6A0
+t1396416326
+s63136
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c00000000533B9F460000000000006254
+t1396416326
+s25172
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c00000000533B9F46000000000000E0F8
+t1396416326
+s57592
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c00000000533B9F46000000000000D6DC
+t1396416326
+s55004
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c00000000533B9F460000000000006308
+t1396416326
+s25352
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c00000000533B9F460000000000004050
+t1396416326
+s16464
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c00000000533B9F460000000000008570
+t1396416326
+s34160
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c00000000533B9F460000000000005EA0
+t1396416326
+s24224
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c00000000533B9F460000000000005FAC
+t1396416326
+s24492
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c00000000533B9F460000000000004440
+t1396416326
+s17472
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c00000000533B9F46000000000000AA28
+t1396416326
+s43560
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000533B9F460000000000003E2C
+t1396416326
+s15916
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c00000000533B9F460000000000030B04
+t1396416326
+s199428
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000533B9F460000000000005E54
+t1396416326
+s24148
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000533B9F460000000000006A90
+t1396416326
+s27280
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c00000000533B9F4600000000000178AC
+t1396416326
+s96428
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000533B9F46000000000001ADC8
+t1396416326
+s110024
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c00000000533B9F46000000000001028C
+t1396416326
+s66188
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000533B9F460000000000008800
+t1396416326
+s34816
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c00000000533B9F460000000000011090
+t1396416326
+s69776
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000533B9F46000000000000882C
+t1396416326
+s34860
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000533B9F4600000000000067AC
+t1396416326
+s26540
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c00000000533B9F460000000000008DEC
+t1396416326
+s36332
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000533B9F460000000000004C08
+t1396416326
+s19464
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000533B9F460000000000002428
+t1396416326
+s9256
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c00000000533B9F46000000000000439C
+t1396416326
+s17308
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c00000000533B9F460000000000006768
+t1396416326
+s26472
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c00000000533B9F4600000000000172F4
+t1396416326
+s94964
+
+N/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000533B6DFC0000000000000ADC
+t1396403708
+s2780
+
+N/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c00000000533B9F790000000000001770
+t1396416377
+s6000
+
+N/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o
+t1325379336
+s67844
+
+N/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/传地址调用.LinkFileList
+c000000004EFFAC88000000000000007F
+t1325378696
+s127
+
+N/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/传地址调用
+t1325379128
+s16036
+
+N/Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp
+c000000004EFFAEF100000000000001BA
+t1325379313
+s442
+
+CBuild AST from /Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1adeac87e6afb441^6268ad87e6afb441^---0#1#1#--18"Check dependencies36"5BF9720C-08B9-4C61-B6CA-2D81FA46E42F-
+
+CCompileC Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o /Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s347072135.676477
+e347072136.145527
+r1
+xCompileC
+xBuild/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o
+x/Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/zjsruxxxy3/Desktop/C++/函数/传地址调用/main.cpp185"CompileC Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o 传地址调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3049ad87e6afb441^56442588e6afb441^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/zjsruxxxy3/Desktop/C++/%E5%87%BD%E6%95%B0/%E4%BC%A0%E5%9C%B0%E5%9D%80%E8%B0%83%E7%94%A8/main.cpp0000000000000000^2767"CompileC Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o 传地址调用/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zjsruxxxy3/Desktop/C++/函数    export LANG=en_US.US-ASCII    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zjsruxxxy3/Desktop/C++/函数/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/传地址调用-generated-files.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/传地址调用-own-target-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/传地址调用-all-target-headers.hmap -iquote /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/传地址调用-project-headers.hmap -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/DerivedSources/x86_64 -I/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/DerivedSources -F/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug -MMD -MT dependencies -MF /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.buil36"5A65BB57-CBE5-421F-89E2-FD5CC011EFC3-
+b48A6DAD3-25F3-4D9C-8281-5FEB0CEEFE05
+
+CLd /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/传地址调用 normal x86_64
+s347072136.146642
+e347072136.169549
+r1
+xLd
+x/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/传地址调用
+xnormal
+xx86_64
+d/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/传地址调用.LinkFileList
+d/Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Link /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/传地址调用53"Ld Build/Products/Debug/传地址调用 normal x86_6403992588e6afb441^626a2b88e6afb441^---0#0#1#--954"Ld Build/Products/Debug/传地址调用 normal x86_64    cd /Users/zjsruxxxy3/Desktop/C++/函数    export MACOSX_DEPLOYMENT_TARGET=10.8    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug -F/Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug -filelist /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/传地址调用.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/zjsruxxxy3/Desktop/C++/函数/Build/Intermediates/函数.build/Debug/传地址调用.build/Objects-normal/x86_64/传地址调用_dependency_info.dat -o /Users/zjsruxxxy3/Desktop/C++/函数/Build/Products/Debug/传地址调用36"8BBE5782-076A-4BB8-A826-0DC636897141-
+b48A6DAD3-25F3-4D9C-8281-5FEB0CEEFE05
+
