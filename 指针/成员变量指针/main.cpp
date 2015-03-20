@@ -14,6 +14,7 @@ class Date
 {
     
 public:
+    
     int year;
     int month;
     int day;
@@ -34,7 +35,9 @@ public:
     
     void print(int Date::*p)
     {
-        cout<<this->*p;
+        cout<<this->*p<<endl;
+    
+//        printf("%p",p);
         
     }
     
@@ -51,7 +54,13 @@ int main(int argc, const char * argv[])
     
     date.show();
     
-    date.print(&Date::month);   // int Date:: *p = &Date::month
+    int Date:: *p = &Date::month; // 成员变量指针  指向 成员变量地址
     
+    date.print(&Date::year);   // int Date:: *p = &Date::month
+    
+    date.print(p);
+    
+    date.print(&Date::day);
+
     return 0;
 }

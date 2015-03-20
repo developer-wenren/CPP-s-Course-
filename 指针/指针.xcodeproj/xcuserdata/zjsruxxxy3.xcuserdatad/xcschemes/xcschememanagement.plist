@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>函数指针.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>成员函数指针.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>成员变量指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +27,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>515B84AE1ABB985B00F77634</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>515B84BE1ABB98AD00F77634</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>51675CA51ABB08DD00E2FC1C</key>
 		<dict>
 			<key>primary</key>
