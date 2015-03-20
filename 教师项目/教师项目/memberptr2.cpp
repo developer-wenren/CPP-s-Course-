@@ -44,6 +44,7 @@ class Button {
 public:
     Button(CCObject *target, FUNCTION function) : target(target), function(function) {}
     void touch() {
+        
         (target->*function)();
     }
 };

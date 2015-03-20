@@ -15,8 +15,10 @@ public:
 
 
 void print(Date *pd, int n, int Date::*p) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cout << pd[i].*p << ' ';
+        
     }
     cout << endl;
 }
@@ -24,6 +26,7 @@ void print(Date *pd, int n, int Date::*p) {
 
 int main() {
     cout << sizeof(Date) << endl;
+    
     //取成员变量地址  &类名::变量名
     int Date::*pdy = &Date::year;
     int Date::*pdm = &Date::month;
