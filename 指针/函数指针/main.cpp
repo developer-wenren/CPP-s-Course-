@@ -30,6 +30,7 @@ int main(int argc, const char * argv[])
     void (*pf)(int);
     pf = print;
     pf(3);
+    pd(5);
     
     
     

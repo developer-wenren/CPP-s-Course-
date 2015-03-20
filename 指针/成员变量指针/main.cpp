@@ -21,9 +21,6 @@ public:
     
     Date(int year,int month,int day):year(year),month(month),day(day)
     {
-        this->year = year;
-        this->month = month;
-        this->day = day;
         
     }
     
@@ -54,7 +51,7 @@ int main(int argc, const char * argv[])
     
     date.show();
     
-    int Date:: *p = &Date::month; // 成员变量指针  指向 成员变量地址
+    int Date::*p = &Date::month; // 成员变量指针  指向 成员变量地址
     
     date.print(&Date::year);   // int Date:: *p = &Date::month
     

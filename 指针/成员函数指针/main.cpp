@@ -44,7 +44,8 @@ int main(int argc, const char * argv[])
     
     void (Date::*pd)() =  &Date::show;
     
-    (today->*pd)();
+    (today->*pd)(); //*pd 函数首地址 = show
+//    (today->show)() 防止被识别为 * + pd(),加括号
     
     return 0;
 }

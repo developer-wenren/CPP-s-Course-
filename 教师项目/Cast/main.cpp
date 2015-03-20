@@ -1,3 +1,10 @@
+//
+//  main.cpp
+//  Cast
+//
+//  Created by zjsruxxxy3 on 15/3/20.
+//  Copyright (c) 2015年 软件开发. All rights reserved.
+//
 #include <iostream>
 using namespace std;
 
@@ -13,7 +20,7 @@ int main() {
     long *pl =  static_cast<long*>(pc);
     cout << *pl << endl;
     
-//    double *pd = static_cast<double*>(pl);
+    //    double *pd = static_cast<double*>(pl);
     
     //野蛮  你想转就转，但不对结果负责
     double *pd = reinterpret_cast<double*>(pl);
@@ -28,5 +35,4 @@ int main() {
     
     return 0;
 }
-
 
