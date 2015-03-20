@@ -22,10 +22,10 @@ int main(int argc, const char * argv[])
     
     /**
      *  函数指正的定义 
-
         void print() ---》 void (*pr)()，然后 函数首地址赋与 pr
-
      */
+    
+    void (*pd)(int) = print;
     
     void (*pf)(int);
     pf = print;

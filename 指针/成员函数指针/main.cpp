@@ -40,11 +40,11 @@ int main(int argc, const char * argv[])
     
     today->show();
     
-//     Date ::(*p)() =
+    cout<<"--------"<<endl;
     
-//    void (Date ::*p)() = &(Date::show());
+    void (Date::*pd)() =  &Date::show;
     
-//    today->*s();
+    (today->*pd)();
     
     return 0;
 }
