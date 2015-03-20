@@ -34,9 +34,9 @@ public:
     }
 };
 
-typedef void (Person::*SELT)();
-
 #define function_seletcor(SEL)  SELT(&SEL)
+
+typedef void (Person::*SELT)();
 
 class Button
 {

@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>指针函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -48,6 +53,11 @@
 			<true/>
 		</dict>
 		<key>51675CB51ABB155000E2FC1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>517B375E1ABC640A00C6B160</key>
 		<dict>
 			<key>primary</key>
 			<true/>
