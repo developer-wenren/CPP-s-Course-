@@ -25,9 +25,8 @@ int test(int a)
 
 int main(int argc, const char * argv[])
 {
-
-//    FunctionPoint p = print(int a);
     FunctionPoint p;
+    
     p=test;
 
     std::cout<<p(10)<<"--"<<(*p)(15)<<std::endl;
@@ -43,6 +42,7 @@ int main(int argc, const char * argv[])
     
     pf = print;
     pf(3);
+    
     (*pd)(5);
     
     printf("%p\n",pf);
