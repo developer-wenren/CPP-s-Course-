@@ -18,7 +18,7 @@ class Button;
 
 #define function_seletcor(sel)  (SEL)(&sel)
 
-typedef void (Person::*SEL)(Button *); // 基类的成员函数指针，如果子类想使用必须public继承,并且强转为父类,
+typedef void (Person::*SEL)(Button *);
 
 class Button
 {
@@ -35,7 +35,7 @@ public:
     
     void touch()
     {
-        (target->*sel)(this); // 对象指针变量使用成员函数指针调用函数的方式，以免为* + sel()
+        (target->*sel)(this); // 对象指针变量使用成员函数指针调用函数的方式，以免为*  sel()
         
                               // 传对象自己
 
@@ -78,8 +78,10 @@ int main(int argc, const char * argv[])
 //    Enemy *enemy = new Enemy;
 //    void (Person::*p)(Button *b);
     
-    Button *button = new Button(hero,(SEL)&Hero::move); // 2.为何要强转？
-    //-子类转父类,前提为公开继承
+    Button *button = new Button(hero,(void(Person::*)(Button *))&Hero::move);
+    // 2.为何要强转？
+    //  (void(Person::*)(Button *))&Hero::move)
+    //  不存在子类的“指向类成员函数的指针” 到基类的“指向类函数的指针”的隐式转换,需要强转
     
     Button *button2 = new Button(hero,function_seletcor(Hero::move));
     
