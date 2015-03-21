@@ -31,6 +31,7 @@ public:
     }
     
 };
+typedef void (Date::*DATE_FUNC)();
 
 int main(int argc, const char * argv[])
 {
@@ -42,10 +43,17 @@ int main(int argc, const char * argv[])
     
     cout<<"--------"<<endl;
     
+    DATE_FUNC dayFunc = &Date::show;
+    
     void (Date::*pd)() =  &Date::show;
     
+            // 利用Date:: 隐式传入this指针
     (today->*pd)(); //*pd 函数首地址 = show
 //    (today->show)() 防止被识别为 * + pd(),加括号
+    
+    cout<<"--------"<<endl;
+
+    (today->*dayFunc)();
     
     return 0;
 }
