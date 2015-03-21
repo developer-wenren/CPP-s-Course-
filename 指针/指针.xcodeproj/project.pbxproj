@@ -15,7 +15,7 @@
 		517B37621ABC640A00C6B160 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517B37611ABC640A00C6B160 /* main.cpp */; };
 		517B37641ABC640A00C6B160 /* ____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 517B37631ABC640A00C6B160 /* ____.1 */; };
 		519B82CF1ABB16FD0065B9F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 519B82CE1ABB16FD0065B9F9 /* main.cpp */; };
-		51A32AC01ABC48A5008510BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51A32ABF1ABC48A5008510BF /* main.cpp */; };
+		AED1499A1ABD176100816EA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51A32ABF1ABC48A5008510BF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -407,7 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A32AC01ABC48A5008510BF /* main.cpp in Sources */,
+				AED1499A1ABD176100816EA8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +645,7 @@
 				517B37661ABC640A00C6B160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51A32ABD1ABC487F008510BF /* Build configuration list for PBXNativeTarget "成员函数指针的应用" */ = {
 			isa = XCConfigurationList;
