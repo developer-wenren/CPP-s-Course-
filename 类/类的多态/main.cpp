@@ -8,6 +8,9 @@
 
 #include <iostream>
 
+/**
+ *  虚函数 + 动态关联机制 ===》多态
+ */
 using namespace std;
 
 class Employee {
@@ -121,11 +124,11 @@ int main(int argc, const char * argv[])
     b.setTechnican("2","haha",21,"9");
     
     
-    Employee *p;
+    Employee *p;           // 让指向基类的指针 来调用子类的虚函数
     
     p = &a;
     
-    p->display();
+    p->display();          // 隐式创建指针VPTR，指向虚函数的内存地址,调用时形成动态关联。
     
     p = &b;
     
