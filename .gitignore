@@ -27,3 +27,9 @@ DerivedData
 # Pods/
 
 *.xcuserstate
+
+*.1
+
+*.pbxproj
+
+*.xcworkspacedata
