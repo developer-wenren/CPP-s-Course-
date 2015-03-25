@@ -46,9 +46,32 @@ int main(int argc, const char * argv[])
     Date date(11,22,33);
     
     date.show();
-
     
+    Date *date2;
+    
+    date2 = &date;
+    // date2 指针变量,用于放地址，&表示取变量的地址  *表示取地址的值
+    
+//    date2->show();
+
+    int c = 11;
    
+    int *a = &c;
+    
+    int *b;
+
+    b = a;
+    
+    *b = 10;
+    
+    c = 12;
+    
+    cout<<(*b)<<sizeof(a)<<c<<&b<<"-"<<b<<"-"<<&c;
+                //指针长度为8字节
+    
+    char *str[10];
+    
+    char (*str2)[10];
     
     
     
