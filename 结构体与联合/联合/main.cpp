@@ -23,7 +23,8 @@ union unknowvar     // 联合变量的成员共享一块内存空间，常常引
     double asdouble;
     
     float asfloat;
-//    string d;  会报错
+  
+    string d;  会报错
     
     Date day();
     
