@@ -10,6 +10,25 @@
 
 using namespace std;
 
+
+class Birthday
+{
+public:
+    int year;
+    int day;
+    int month;
+    
+    Birthday()
+    {
+        cout<<"birthday constructor done"<<endl;
+    }
+    
+    void display()
+    {
+        cout<<"++++"<<endl;
+    }
+};
+
 class Employee {
     
 protected:
@@ -19,6 +38,11 @@ protected:
     int age;
 
 public:
+    
+    Employee()
+    {
+        cout<<"employee constructor done"<<endl;
+    }
     
     void setEmployee(string id,string n,int a)
     {
@@ -70,12 +94,18 @@ public:
         
     }
     
+    Teacher()
+    {
+        cout<<"teacher constructor done"<<endl;
+    }
+    
 };
 
 class Technian: public Employee,public Teacher
 {
 public:
     
+    Birthday bith;
     
     void setTechian(string aId,string aName,int aAge,string aCourse)
     {
@@ -100,6 +130,12 @@ public:
 
     }
     
+    Technian()
+    {
+        bith.display();
+        
+        cout<<"technian constructor done"<<endl;
+    }
 
 };
 
@@ -109,13 +145,14 @@ int main(int argc, const char * argv[])
 
     // insert code here...
     
+    cout<<"------"<<endl;
     Technian technianMan;
     
-    technianMan.setTechian("121","dodo",22,"math");
+//    technianMan.setTechian("121","dodo",22,"math");
     
-    technianMan.displayTechian();
+//    technianMan.displayTechian();
     
-    
+    //  构造方法 先父类，再类内的成员对象，最后自己
     
     return 0;
 }
