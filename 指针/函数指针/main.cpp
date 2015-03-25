@@ -23,6 +23,11 @@ int test(int a)
     return a;
 }
 
+void inc(int *val)
+{
+    (*val)++;
+}
+
 int main(int argc, const char * argv[])
 {
     FunctionPoint p;
@@ -49,9 +54,16 @@ int main(int argc, const char * argv[])
     
     printf("%p\n",print);
     
+    std::cout<<"-------------"<<std::endl;
     
+    void (*fun)(int *);
+    int a=3;
+    fun=inc;
+    (*fun)(&a);
+    printf("%d\n", a);
 
     // insert code here...
     return 0;
 }
+
 
