@@ -28,6 +28,8 @@ public:
         day = 0;
         year = 0;
         month = 0;
+        cout<<this->year<<" Date() ";
+        
     }
                 //      构造函数的重载
     Date(int y,int m,int d)
@@ -35,7 +37,8 @@ public:
         month = m;
         year = y;
         day = d;
-        
+        cout<<this->year<<" Date(int y,int m,int d) ";
+
     }
     
     void display()
@@ -57,8 +60,13 @@ public:
         year = d.year;
         month = d.month;
         day = d.day;
-        cout<<"copy构造函数"<<endl;
-        
+        cout<<this->year<<"copy构造函数"<<endl;
+    }
+    
+    ~Date()
+    {
+        cout<<this->year<<"析构函数"<<endl;
+
     }
 };
 
@@ -109,6 +117,21 @@ int main(int argc, const char * argv[])
     
     printf("%p---%p\n",copyDay2,today2);
 
+    cout<<"_______"<<endl;
+    
+    Date *d1 = new Date(1,1,1);
+    Date *d2 = new Date(2,2,2);
+    Date da = *d2;
+    delete d1;
+    delete d2;          // 谁先delete谁先析构
+    da.display();
+    
+    
+    Date d11(1,1,1);
+    
+    Date d22(2,2,2);//后构造先析构
+    
+    // 后入先出，栈的特点。
     
     
     return 0;
