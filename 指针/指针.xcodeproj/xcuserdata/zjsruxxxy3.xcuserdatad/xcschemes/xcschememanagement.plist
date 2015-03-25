@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>指针与函数多值返回.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>指针函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -42,6 +47,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5148E26A1AC2C9F000209776</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>515B84AE1ABB985B00F77634</key>
 		<dict>
 			<key>primary</key>
