@@ -34,6 +34,13 @@ public:
         
     }
     
+    void pr2()const
+    
+    {
+        cout<<"pr2";
+        
+    }
+    
 };
 
 
@@ -70,6 +77,8 @@ int main(int argc, const char * argv[])
 //    date2.pr();  wrong
     date2.display(&last);
         // 常对象只能访问常函数,不让对象的属性改变,不给this指针传递
+    
+    date2.pr2();
     
     
     return 0;
