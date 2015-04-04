@@ -139,20 +139,189 @@ public:
 
 };
 
+#pragma mark 钻石继承
+ class Enemy
+{
+protected:
+    int _hp;
+    
+public:
+    int displayHp()
+    {
+        return _hp;
+    }
+};
+
+
+class Arrow:virtual public  Enemy
+{
+    
+public:
+
+    Arrow(int hp)
+    {
+        _hp = hp;
+        
+    }
+
+    
+};
+
+class Sword:virtual public  Enemy
+{
+    
+public:
+    
+    Sword(int hp)
+    {
+        _hp = hp;
+        
+    }
+
+    
+};
+
+class Gun:virtual public  Enemy
+{
+    
+public:
+    
+    Gun(int hp)
+    {
+        _hp = hp;
+    }
+ 
+    
+};
+
+class Boss:public Gun,public Arrow,public Sword
+{
+    
+public:
+    Boss():Gun(100),Arrow(200),Sword(300)
+    {
+        _hp = Gun(100).displayHp()+Arrow(200).displayHp()+Sword(300).displayHp();
+        
+    }
+
+    
+};
+
+#pragma mark 抽象类继承， 协议,接口
+
+class sell_protocol
+{
+    
+public:
+    virtual void sell()=0;
+    
+    
+};
+
+class Goods:public sell_protocol
+{
+    
+    void sell()
+    {
+        cout<<"sell the goods 300 d"<<endl;
+        
+    }
+    
+};
+
+class Clothes:public sell_protocol
+{
+    
+    void sell()
+    {
+        cout<<"sell the Clothes 500 d"<<endl;
+        
+    }
+    
+};
+
+class Medication:public sell_protocol
+{
+    
+    void sell()
+    {
+        cout<<"sell the Medication 100 d"<<endl;
+        
+    }
+    
+};
+
+
+class NPC
+{
+public:
+    void buy(sell_protocol *sell_thing) // 指针，也可以引用 
+    {
+        sell_thing->sell();
+        
+    }
+};
+
+
+
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     
-    cout<<"------"<<endl;
-    Technian technianMan;
+//    cout<<"------"<<endl;
+//    Technian technianMan;
     
 //    technianMan.setTechian("121","dodo",22,"math");
     
 //    technianMan.displayTechian();
     
-    //  构造方法 先父类，再类内的成员对象，最后自己
+//  构造方法 先父类，再类内的成员对象，最后自己
+    
+
+    Gun *gun = new Gun(100);
+    
+    cout<<gun->displayHp();
+
+    Arrow *arrow = new Arrow(200);
+    
+    cout<<arrow->displayHp();
+    
+    Sword *sword = new Sword(300);
+    
+    cout<<sword->displayHp();
+
+    
+    Boss *boss = new Boss;
+    
+    cout<<boss->displayHp()<<endl;
+    
+    /**
+     *
+     */
+    
+    
+    Goods *goods = new Goods;
+    
+    Medication *medications = new Medication;
+    
+    Clothes *clothes = new Clothes;
+    
+    NPC *npc = new NPC;
+    
+    npc -> buy(goods);
+    
+    npc -> buy(clothes);
+    
+    npc -> buy(medications);
+    
+    
+    
+    
+    
+    
+    
     
     return 0;
 }
