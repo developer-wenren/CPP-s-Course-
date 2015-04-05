@@ -24,7 +24,6 @@ public:
         
         cout<<"---";
         
-        
     }
     
     void push(T p)
@@ -40,6 +39,25 @@ public:
     }
     
 };
+
+template <typename T>
+class Operation {
+    
+public:
+    
+    T a;
+    Operation(T a):a(a)
+    {
+        
+    }
+    void display()
+    {
+        cout<<"a:"<<a<<endl;
+    }
+    
+    
+};
+
 
 int main(int argc, const char * argv[])
 {
@@ -60,6 +78,11 @@ int main(int argc, const char * argv[])
     cout<<buffer.get(4)<<endl;
     
     Buffer<int>();
+    
+    Operation<int> op(22);
+    
+    op.display();
+    
     
     
 
