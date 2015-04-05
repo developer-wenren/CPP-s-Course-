@@ -11,6 +11,39 @@
 
 using namespace std;
 
+template <typename T>
+void printF(vector<T> t)
+{
+    
+    for (auto iter2 = t.begin(); iter2!=t.end(); iter2++)
+    {
+        cout<<*iter2<<" ";
+        
+    }
+    
+    
+}
+
+template <typename T>
+void printF2(vector<T> t)
+{
+    for (int i = 0; i< t.size(); i++)
+    {
+        cout<<t.at(i)<<" ";
+    
+    }
+}
+
+template <typename T>
+void printF3(vector<T> t)
+{
+    for (auto i :t)
+    {
+        cout<<i<<" ";
+        
+    }
+}
+
 
 int main(int argc, const char * argv[])
 {
@@ -33,10 +66,19 @@ int main(int argc, const char * argv[])
         
     }
     
-//    cout<<*iter;
+//    cout<<v1.at(7);
     
+    cout<<"------"<<endl;
     
+    printF(v1);
+  
+    cout<<endl<<"------"<<endl;
     
+    printF2(v1);
+    
+    cout<<endl<<"------"<<endl;
+    
+    printF3(v1);
     
     return 0;
 }
